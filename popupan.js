@@ -1,6 +1,6 @@
 
 	var url_popup = 'https://www.youtube.com/watch?v=xfJw6BfI0gY';
-
+	var urls=["https://seconhomes.top","http://kiwukivillage.com","http://kiwuki.com.vn"];
       //<![CDATA[
 	  // var url_ppp = 'http://bit.ly/1KmPNYe';
       function addEvent(obj, eventName, func){
