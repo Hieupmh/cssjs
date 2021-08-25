@@ -20,7 +20,7 @@
 				modalBG = JQuery('<div class="thanhfaceseo-modal-bg" />').insertAfter(modal);
 			}		    
 			modal.bind('thanhfaceseo:open', function () {
-			  modalBG.unbind('click.modalEvent');
+			  modalBG.unbind('click.modalEve	nt');
 				JQuery('.' + options.dismissmodalclass).unbind('click.modalEvent');
 				if(!locked) {
 					lockModal();
@@ -111,16 +111,16 @@ jQuery(divpopup).attr('id', 'myModalthanh');
 jQuery(divpopup).attr('class', 'thanhfaceseo-modal');
 jQuery( "body" ).append(divpopup);
 var titleform='Đăng ký Form';
-var urlform="https://docs.google.com/forms/d/e/1FAIpQLSfLmBC0f3ipvca5eZeH48HotuzHmbF96XAMhjaMhOFKjmerRg/formResponse";
+var urlform="https://docs.google.com/forms/d/1ilpVP8WmtDbdhmM4SWuT0H7yp24GfA4__EKwuYYcfr8/edit";
 var urlchuyen=window.location.href;
-var hovaten="417205409";
-var dienthoai="386165074";
-var email="1294822629";
-var duan="1247784825";
+var hovaten="652803844";
+var dienthoai="636526145";
+var email="1250011624";
+var duan="1536048612";
 var submittitle='Đăng ký tư vấn';
 var submittedformthanh=false;
 var titleheader="ĐĂNG KÝ TƯ VẤN NHẬN ƯU ĐÃI";
-var hotline="0931342229";
+var hotline="0902531888";
 var linkhientai=window.location.href;
 var thoigiancookie=1;
 var thoigianhien=360000;
